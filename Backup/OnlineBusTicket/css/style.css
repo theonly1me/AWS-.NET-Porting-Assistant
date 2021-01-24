@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0; padding:0; font-family:Arial; background-color:#014c65; font-size:12px; line-height:16px; color:#444;}
+*{padding:0; margin:0;}
+h1,h2,h3,h4,h5,h6,ul,ol,p{margin:0; padding:0;}
+.clear{clear:both;}
+.mt{margin-top:5px;}
+img{border:none;}
+#wrapper{width:980px; margin:0px auto;}
+#wrapper1{width:960px; padding:10px 10px 5px 10px; background-color:#fff; float:left;}
+a{padding:0; margin:0; border:none; float:none}
+a:link{padding:0; margin:0; border:none; float:none}
+a:visited{padding:0; margin:0; border:none; float:none}
+a:hover{padding:0; margin:0; border:none; float:none}
+a:active{padding:0; margin:0; border:none; float:none}
+
+/****************  Header Part  *****************/
+#header{width:960px; height:70px;}
+#head-container{width:960px; height:70px; float:left;}
+.head-left{width:290px; height:70px; float:left}
+.head-left a{padding:0; margin:0; border:none; float:none}
+.head-left a:link{padding:0; margin:0; border:none; float:none}
+.head-left a:visited{padding:0; margin:0; border:none; float:none}
+.head-left a:hover{padding:0; margin:0; border:none; float:none}
+.head-left a:active{padding:0; margin:0; border:none; float:none}
+.head-right{width:660px; margin-left:10px; height:70px; text-align:right; float:left}
+.head-right li{display:inline; list-style-type:none; border-right:solid 1px #b0b0b0; font:normal 11px Arial; padding:0px 6px;}
+.head-right li a, a:link{padding:0; margin:0; border:none; float:none; color:#0033FF; text-decoration:underline;}
+.head-right li a:visited{padding:0; margin:0; border:none; float:none; color:#0033FF; text-decoration:underline;}
+.head-right li a:hover{padding:0; margin:0; border:none; float:none; color:#0033FF; text-decoration:none;}
+.head-right li a:active{padding:0; margin:0; border:none; float:none; color:#0033FF; text-decoration:underline;}
+
+/****************  Header Part  *****************/
+#menu{width:958px; height:38px; padding:1px 1px; background-color:#98d772;}
+#menu .nav-bg{width:958px; height:34px;}
+.nav-bg ul{margin:0; padding:0; height:34px; background:url(../images/menu-bg.jpg) 0 0 repeat-x;}
+.nav-bg ul li{display:inline; font:normal 14px Arial; color:#005000;}
+.nav-bg ul li a, a:link{padding:10px 15px 8px 15px; margin:0; border-right:solid 1px #98d772; color:#005000; text-decoration:none; float:left;}
+.nav-bg ul li a:visited{padding:10px 15px 8px 15px; margin:0; color:#005000; text-decoration:none;}
+.nav-bg ul li a:hover{padding:10px 15px 8px 15px; margin:0; color:#fff; background-color:#0699fd; text-decoration:none;}
+.nav-bg ul li a:active{padding:10px 15px 8px 15px; margin:0; color:#005000; text-decoration:none;}
+.nav-bg ul li a.cureent{padding:10px 15px 8px 15px; margin:0; color:#fff; background-color:#0699fd; text-decoration:none;}
+
+/****************  Content Part  *****************/
+#content{width:960px; margin:5px 0px 5px 0px;}
+#content .content-holder{width:960px; float:left;}
+.content-holder .ch-left{width:290px; float:left}
+.obtb-sec{width:288px; height:182px; margin-bottom:5px; background-color:#fcfcbc; border:solid 1px #e9c02e; float:left}
+.obtb-head{width:268px; padding:5px 10px; height:15px; text-align:center; background-color:#ffd542; font:bold 14px Arial; color:#333;}
+.mybb-sec{width:288px; height:65px; margin-bottom:5px; border:solid 1px #64acdd; float:left}
+.mybb-head{width:268px; padding:5px 10px; height:15px; border-bottom:solid 1px #88c1e8; background-color:#f0f8fe; font:bold 12px Arial; color:#0699fd;}
+.mybb-text{width:268px; margin-top:10px; padding:0px 10px;}
+.mybb-text a{color:#0179c0; text-decoration:none; padding:0; margin:0; border:none; float:none}
+.mybb-text a:link{color:#0179c0; text-decoration:none; padding:0; margin:0; border:none; float:none}
+.mybb-text a:visited{color:#0179c0; text-decoration:none; padding:0; margin:0; border:none; float:none}
+.mybb-text a:hover{color:#0179c0; text-decoration:underline; padding:0; margin:0; border:none; float:none}
+.mybb-text a:active{color:#0179c0; text-decoration:none; padding:0; margin:0; border:none; float:none}
+.left-banner-sec{width:290px; height:281px; margin-bottom:5px; float:left}
+.login-sec{width:288px; height:250px; background-color:#f5fed2; border:solid 1px #c3d47f; float:left}
+.login-head{width:268px; padding:5px 10px; height:15px; text-align:center; background-color:#6a830a; font:bold 14px Arial; color:#fff;}
+.login-text{padding:8px;}
+.content-holder .ch-center{width:522px; margin:0px 5px 0px 5px; float:left}
+.contentc{width:520px; height:186px; margin-top:5px; border:solid 1px #e9c02e;}
+.contentc-head{width:500px; padding:5px 10px; height:15px; background-color:#ec6216; color:#fff; font:bold 14px Arial;}
+.torist-place{margin:5px; border:solid 1px #e9c02e;}
+.customer-feedback{width:520px; height:117px; margin-top:5px; border:solid 1px #015d93; float:left;}
+.cf-head{width:500px; padding:5px 10px; height:15px; background-color:#017ac2; color:#fff; font:bold 12px Arial;}
+.contentc ul{margin-left:10px; margin-top:5px;}
+.contentc li{list-style-image:url(../images/check-box.png); margin-left:20px; padding:5px;}
+.content-holder .ch-right{width:138px; float:left}
+.flsh{width:522px; height:196px;}
+.lable{font:bold 12px Arial; color:#444;}
+.text-box{padding:3px; border:solid 1px #d8d8b0;}
+.button{padding:3px 10px; border:outset 2px #eee; background-color:#cffc9f; color:#003366; font:bold 12px Arial; cursor:pointer;}
+.button1{padding:3px 10px; border:outset 2px #eee; background-color:#cffc9f; color:#003366; font:bold 12px Arial; cursor:pointer;}
+.button2{padding:3px 10px; border:outset 2px #eee; background-color:#cffc9f; color:#003366; font:bold 12px Arial; cursor:pointer;}
+
+/****************  Master Page Part  *****************/
+#contentm{width:960px;}
+#contentm .contentm-holder{width:958px; float:left; background-color:#cffc9f; border:solid 1px #98d772;}
+.contentm-holder .mster-left{width:208px; padding:5px; float:left;}
+.contentm-holder .mster-right{width:725px; padding:5px 5px 5px 9px; background-color:#fff; min-height:380px; height:auto; padding-left:9px; border-left:solid 1px #98d772; float:left;}
+
+/****************  Customer Feedback Part  *****************/
+#cont{width:500px; margin:0 auto;background:#fff; margin-top:5px; text-align:justify;}
+#box8{position:absolute;float:left;}
+#box8 .div1{width:500px;float:left;}
+#box8 .buttons{text-align:left}
+#box8 .prev{float:left;}
+#box8 .next{float:right;}
+.sample8 .buttons{text-align:center;clear:both;}
+.mask1{position:relative; width:500px; height:80px; overflow:hidden;}
+span{border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    display:block; font-weight: 700;
+}
+.description{padding:16px;margin:10px 0;background:#eee}
+.links {padding:10px;margin-top:20px}
+.links a{font-size:14px;color:#0080FF;text-decoration:none}
+.links a:hover{font-weight:bold}
+#box8 h3{display:none;}
+.buttons{padding:5px;}
+.buttons span{color:#0080FF;padding:0 5px;cursor:pointer;font:10px Verdana}
+.buttons span.active, .buttons span:hover{background:#0080FF;color:#fff}
+
+/****************  Footer Part  *****************/
+#footer{width:938px; height:26px; margin-top:5px; padding:12px 10px 0px 10px; border:solid 1px #0699fd; background:url(../images/footer-bg.jpg) 0 0 repeat-x;}
+#footer .ft-left{width:275px; color:#444; font:normal 12px Arial; float:left;}
+#footer .ft-right{width:600px; color:#444; font:normal 12px Arial; text-align:right; float:right;}
+.ft-right li{display:inline; padding:0px 8px 0px 8px; border-right:solid 1px #444;}
+.ft-right li a, a:link{color:#444; text-decoration:none; padding:0; margin:0; border:none; float:none}
+.ft-right li a:visited{color:#444; text-decoration:none; padding:0; margin:0; border:none; float:none}
+.ft-right li a:hover{color:#444; text-decoration:underline; padding:0; margin:0; border:none; float:none}
+.ft-right li a:active{color:#444; text-decoration:none; padding:0; margin:0; border:none; float:none}

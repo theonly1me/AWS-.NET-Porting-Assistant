@@ -1,0 +1,10 @@
+Online Bus E-Ticket|Counter Ticket
+------------------------------
+Ticket No : BUS2000123
+Date of Booking :24 Oct 2015
+Date of Visit : 24 Oct 15
+No. of Passengers : 2
+Leaving From : Old Delhi
+Going to : New Delhi
+Fare :Rs. 100.00
+

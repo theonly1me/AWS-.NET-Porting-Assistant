@@ -1,0 +1,432 @@
+==========
+References
+==========
+DataTransmission
+BusinessBlock
+System.Data
+DataTransmission.Booking
+BusinessBlock.MasterBlock
+System
+System.Globalization
+System.Linq
+System.Reflection
+BusinessBlock.HR
+System.Web.UI.WebControls
+BusinessBlock.Accounts
+System.Text
+System.Collections
+DataTransmission.Common
+BusinessBlock.Common
+DataTransmission.Masters
+SISDAPPS.DataAccessBlock
+OnlineBusTicket
+OnlineBusTicket.Account
+System.Web
+System.Web.Security
+OnlineBusTicket.Administration
+System.Web.UI
+System.Drawing
+System.Drawing.Drawing2D
+System.IO
+iTextSharp.text.pdf
+iTextSharp.text
+OnlineBusTicket.Booking
+System.Drawing.Printing
+System.Configuration
+System.Data.SqlClient
+System.Collections.ObjectModel
+System.Net.Mail
+System.Net
+System.Web.SessionState
+OnlineBusTicket.Masters
+System.Collections.Generic
+project.all
+
+===============
+DownloadedFiles
+===============
+project.all.json
+system.data.sqlclient.json
+system.web.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: C:\Users\pulav\Downloads\AWS Ported Project\DataTransmission\DataTransmission.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+netcoreapp3.1
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\OnlineBusTicket.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+netcoreapp3.1
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+Microsoft.Data.SqlClient,*
+---------------------------
+Executed Actions for file: C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\Booking\TicketBooking.aspx.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.Data.SqlClient
+Times Run: 1
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.SqlClient
+Times Run: 1
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\WebForm1.aspx.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.Data.SqlClient
+Times Run: 1
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.SqlClient
+Times Run: 1
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Invalid Executions: 0
+
+Action Type: Project
+Action Name: MigrateConfig
+Action Value: 
+Times Run: 1
+Invalid Executions: 0
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\Booking\Payment_Mode.aspx.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.Data.SqlClient
+Times Run: 1
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.SqlClient
+Times Run: 1
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: C:\Users\pulav\Downloads\AWS Ported Project\BusinessBlock\BusinessBlock.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+netcoreapp3.1
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+Microsoft.Data.SqlClient,*
+---------------------------
+Executed Actions for file: C:\Users\pulav\Downloads\AWS Ported Project\BusinessBlock\Common\HRUnit.cs
+---------------------------
+
+Action Type: Using
+Action Name: AddDirective
+Action Value: Microsoft.Data.SqlClient
+Times Run: 1
+Invalid Executions: 0
+
+Action Type: Using
+Action Name: RemoveDirective
+Action Value: System.Data.SqlClient
+Times Run: 1
+Invalid Executions: 0
+
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: Project
+Action Name: ArchiveFiles
+Action Value: BundleConfig.cs,FilterConfig.cs,RouteConfig.cs,WebApiConfig.cs,global.asax.cs,global.asax,AssemblyInfo.cs,packages.config
+Times Run: 1
+Invalid Executions: 0
+
+
+
+===========
+BuildErrors
+===========
+------------------
+BUILD ERRORS FOR: C:\Users\pulav\Downloads\AWS Ported Project\BusinessBlock\BusinessBlock.csproj
+------------------
+
+BuildError: CS0234: The type or namespace name 'Data' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+Count: 1
+
+
+------------------
+BUILD ERRORS FOR: C:\Users\pulav\Downloads\AWS Ported Project\DataTransmission\DataTransmission.csproj
+------------------
+
+BuildError: S1704: An assembly with the same simple name 'BusinessBlock' has already been imported. Try removing one of the references (e.g. 'C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\Lib\BusinessBlock.dll') or sign them to enable side-by-side.
+Count: 1
+
+
+------------------
+BUILD ERRORS FOR: C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\OnlineBusTicket.csproj
+------------------
+
+BuildError: S1704: An assembly with the same simple name 'DataTransmission' has already been imported. Try removing one of the references (e.g. 'C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\Lib\DataTransmission.dll') or sign them to enable side-by-side.
+Count: 1
+
+BuildError: CS0234: The type or namespace name 'UI' does not exist in the namespace 'System.Web' (are you missing an assembly reference?)
+Count: 850
+
+BuildError: CS0234: The type or namespace name 'Security' does not exist in the namespace 'System.Web' (are you missing an assembly reference?)
+Count: 1
+
+BuildError: CS0246: The type or namespace name 'iTextSharp' could not be found (are you missing a using directive or an assembly reference?)
+Count: 7
+
+BuildError: CS0246: The type or namespace name 'GridViewPageEventArgs' could not be found (are you missing a using directive or an assembly reference?)
+Count: 7
+
+BuildError: CS1069: The type name 'PrintPageEventArgs' could not be found in the namespace 'System.Drawing.Printing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 1
+
+BuildError: CS0246: The type or namespace name 'GridViewRowEventArgs' could not be found (are you missing a using directive or an assembly reference?)
+Count: 1
+
+BuildError: CS0246: The type or namespace name 'GridViewCommandEventArgs' could not be found (are you missing a using directive or an assembly reference?)
+Count: 5
+
+BuildError: CS1069: The type name 'Font' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 4
+
+BuildError: CS1069: The type name 'Bitmap' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 4
+
+BuildError: CS0400: The type or namespace name 'AjaxControlToolkit' could not be found in the global namespace (are you missing an assembly reference?)
+Count: 19
+
+BuildError: CS0246: The type or namespace name 'ImageClickEventArgs' could not be found (are you missing a using directive or an assembly reference?)
+Count: 2
+
+BuildError: CS0246: The type or namespace name 'GridViewSelectEventArgs' could not be found (are you missing a using directive or an assembly reference?)
+Count: 2
+
+BuildError: CS0103: The name 'Request' does not exist in the current context
+Count: 12
+
+BuildError: CS0103: The name 'ViewState' does not exist in the current context
+Count: 57
+
+BuildError: CS0103: The name 'IsPostBack' does not exist in the current context
+Count: 23
+
+BuildError: CS1061: 'User_Acount' does not contain a definition for 'Session' and no accessible extension method 'Session' accepting a first argument of type 'User_Acount' could be found (are you missing a using directive or an assembly reference?)
+Count: 1
+
+BuildError: CS0103: The name 'FormsAuthentication' does not exist in the current context
+Count: 1
+
+BuildError: CS0103: The name 'Response' does not exist in the current context
+Count: 39
+
+BuildError: CS0246: The type or namespace name 'ListItem' could not be found (are you missing a using directive or an assembly reference?)
+Count: 36
+
+BuildError: CS0103: The name 'Session' does not exist in the current context
+Count: 430
+
+BuildError: CS7069: Reference to type 'DropDownList' claims it is defined in 'System.Web', but it could not be found
+Count: 9
+
+BuildError: CS0246: The type or namespace name 'GridViewRow' could not be found (are you missing a using directive or an assembly reference?)
+Count: 27
+
+BuildError: CS0246: The type or namespace name 'CheckBox' could not be found (are you missing a using directive or an assembly reference?)
+Count: 19
+
+BuildError: CS0103: The name 'ScriptManager' does not exist in the current context
+Count: 16
+
+BuildError: CS0120: An object reference is required for the non-static field, method, or property 'object.GetType()'
+Count: 16
+
+BuildError: CS0246: The type or namespace name 'RadioButton' could not be found (are you missing a using directive or an assembly reference?)
+Count: 4
+
+BuildError: CS0103: The name 'ConfigurationManager' does not exist in the current context
+Count: 4
+
+BuildError: CS1061: 'CImage' does not contain a definition for 'Session' and no accessible extension method 'Session' accepting a first argument of type 'CImage' could be found (are you missing a using directive or an assembly reference?)
+Count: 2
+
+BuildError: CS1061: 'CImage' does not contain a definition for 'Response' and no accessible extension method 'Response' accepting a first argument of type 'CImage' could be found (are you missing a using directive or an assembly reference?)
+Count: 3
+
+BuildError: CS0103: The name 'ImageFormat' does not exist in the current context
+Count: 1
+
+BuildError: CS0103: The name 'Server' does not exist in the current context
+Count: 10
+
+BuildError: CS0103: The name 'HttpContext' does not exist in the current context
+Count: 3
+
+BuildError: CS0103: The name 'PixelFormat' does not exist in the current context
+Count: 1
+
+BuildError: CS1069: The type name 'Graphics' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 2
+
+BuildError: CS0103: The name 'Graphics' does not exist in the current context
+Count: 1
+
+BuildError: CS0103: The name 'SmoothingMode' does not exist in the current context
+Count: 1
+
+BuildError: CS1069: The type name 'HatchBrush' could not be found in the namespace 'System.Drawing.Drawing2D'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 3
+
+BuildError: CS0103: The name 'HatchStyle' does not exist in the current context
+Count: 2
+
+BuildError: CS0103: The name 'FontFamily' does not exist in the current context
+Count: 1
+
+BuildError: CS0103: The name 'FontStyle' does not exist in the current context
+Count: 1
+
+BuildError: CS1069: The type name 'StringFormat' could not be found in the namespace 'System.Drawing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 3
+
+BuildError: CS0103: The name 'StringAlignment' does not exist in the current context
+Count: 2
+
+BuildError: CS1069: The type name 'GraphicsPath' could not be found in the namespace 'System.Drawing.Drawing2D'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 2
+
+BuildError: CS1069: The type name 'Matrix' could not be found in the namespace 'System.Drawing.Drawing2D'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 2
+
+BuildError: CS0103: The name 'WarpMode' does not exist in the current context
+Count: 1
+
+BuildError: CS0103: The name 'HttpCacheability' does not exist in the current context
+Count: 2
+
+BuildError: CS1069: The type name 'PrintDocument' could not be found in the namespace 'System.Drawing.Printing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 2
+
+BuildError: CS1069: The type name 'PrintPageEventHandler' could not be found in the namespace 'System.Drawing.Printing'. This type has been forwarded to assembly 'System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' Consider adding a reference to that assembly.
+Count: 1
+
+BuildError: CS0103: The name 'Brushes' does not exist in the current context
+Count: 1
+
+BuildError: CS0103: The name 'IsValid' does not exist in the current context
+Count: 1
+
+BuildError: CS0246: The type or namespace name 'HiddenField' could not be found (are you missing a using directive or an assembly reference?)
+Count: 16
+
+BuildError: CS0246: The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)
+Count: 8
+
+BuildError: CS0246: The type or namespace name 'Label' could not be found (are you missing a using directive or an assembly reference?)
+Count: 52
+
+BuildError: CS0246: The type or namespace name 'ImageButton' could not be found (are you missing a using directive or an assembly reference?)
+Count: 11
+
+BuildError: CS0246: The type or namespace name 'LinkButton' could not be found (are you missing a using directive or an assembly reference?)
+Count: 24
+
+BuildError: CS0246: The type or namespace name 'Document' could not be found (are you missing a using directive or an assembly reference?)
+Count: 4
+
+BuildError: CS0246: The type or namespace name 'PdfWriter' could not be found (are you missing a using directive or an assembly reference?)
+Count: 2
+
+BuildError: CS0103: The name 'PdfWriter' does not exist in the current context
+Count: 2
+
+BuildError: CS0103: The name 'iTextSharp' does not exist in the current context
+Count: 2
+
+BuildError: CS0246: The type or namespace name 'PdfPTable' could not be found (are you missing a using directive or an assembly reference?)
+Count: 38
+
+BuildError: CS0246: The type or namespace name 'PdfPCell' could not be found (are you missing a using directive or an assembly reference?)
+Count: 4
+
+BuildError: CS0246: The type or namespace name 'ImageClickEventHandler' could not be found (are you missing a using directive or an assembly reference?)
+Count: 41
+
+BuildError: CS1069: The type name 'SqlConnection' could not be found in the namespace 'System.Data.SqlClient'. This type has been forwarded to assembly 'System.Data.SqlClient, Version=4.6.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' Consider adding a reference to that assembly.
+Count: 4
+
+BuildError: CS1069: The type name 'SqlCommand' could not be found in the namespace 'System.Data.SqlClient'. This type has been forwarded to assembly 'System.Data.SqlClient, Version=4.6.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' Consider adding a reference to that assembly.
+Count: 4
+
+BuildError: CS1069: The type name 'SqlDataReader' could not be found in the namespace 'System.Data.SqlClient'. This type has been forwarded to assembly 'System.Data.SqlClient, Version=4.6.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' Consider adding a reference to that assembly.
+Count: 2
+
+BuildError: CS0246: The type or namespace name 'TextBox' could not be found (are you missing a using directive or an assembly reference?)
+Count: 6
+
+
+
+

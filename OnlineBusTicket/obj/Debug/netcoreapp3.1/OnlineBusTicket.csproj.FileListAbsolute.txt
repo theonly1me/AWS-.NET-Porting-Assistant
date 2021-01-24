@@ -1,0 +1,3 @@
+C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\bin\Debug\netcoreapp3.1\OnlineBusTicket.deps.json
+C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\obj\Debug\netcoreapp3.1\OnlineBusTicket.AssemblyInfoInputs.cache
+C:\Users\pulav\Downloads\AWS Ported Project\OnlineBusTicket\obj\Debug\netcoreapp3.1\OnlineBusTicket.AssemblyInfo.cs

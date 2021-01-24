@@ -1,0 +1,1792 @@
+﻿/*
+ _____________________________
+|Symbol | Meaning		      |
+ -----------------------------
+|   .   |Creates class        | 
+ -----------------------------
+|   #   |Set style for a ID   | 
+ -----------------------------
+|   *   |All                  | 
+ -----------------------------
+*/
+
+.body_ml
+{
+	padding: 0pt; 
+	margin: 0pt; 
+	background-color:#000099;
+}
+
+.homeOuterTable_ml
+        {
+        border-color: #00153f;
+	        border-style:solid;
+	        border-width:1pt;
+	        border:0;
+	        width:100%;
+	        height:100%;	                  
+	        background-color:#FFDFDF;
+	        
+        }
+        
+/*Used in table in master page for light blue background*/
+.border_ml
+{
+	
+	background-color: #FFDFDF;
+}
+		
+.MiddleHeader_ml
+{
+	width:10%; 
+	background-image: url('/Images/MiddleHeader.png'); 
+	background-repeat: repeat-x; 
+	background-position: bottom;
+}
+.MiddleHeaderBg_ml
+{
+	width:80%; 
+	background-image: url('/Images/MiddleHeader.png'); 
+	background-repeat: repeat-x; 
+	background-position: center bottom; 
+	font-family: 'Monotype Corsiva'; 
+	font-size: xx-large; 
+	font-weight: bold; 
+	color: #FFDFDF;
+}
+
+
+.VerticalMenuHeader_ml
+{
+	background-color: #FFDFDF;
+	width:170pt; 
+	height:35pt; 
+	left: 0pt; 
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: x-large; 
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.linkrowbg_ml
+{
+	background-image: url('/Images/Copy of top.jpg'); 
+	background-repeat: repeat-x;
+	
+}
+
+/* |Linkbuttons|Hyperlink| */
+.link_ml
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color:#000080;
+	text-decoration: underline;	
+}
+
+/* |Links|link| */
+.link_mlmedium
+{
+	font-family: Calibri ;
+	font-weight: normal;
+	font-size: 15pt;
+	color:#990033;
+	text-decoration: underline;	
+}
+
+
+/*AutoComplete flyout */
+.autocomplete_completionListElement
+{
+    margin: 0px !important;
+    padding: 0px;
+    background-color: inherit;
+    color: windowtext;
+    border: buttonshadow;
+    overflow: auto;
+    height: 200px;
+    text-align: left;
+    list-style-type: none;
+}
+        
+/* AutoComplete highlighted item */
+.autocomplete_highlightedListItem
+{
+    background-color: #ffff99;
+    color: black;
+    padding: 1px;
+}
+        
+/* AutoComplete item */
+.autocomplete_listItem
+{
+    background-color: #eeeeee;
+    color: windowtext;
+    padding: 1px;
+}
+
+
+
+
+
+.TreeView_ml
+{
+	background-color: #99CCFF; 
+	height:50pt 
+}
+
+.p_ml
+{font-family:Calibri;
+font-weight:normal;
+line-height:18pt;
+font-size:11pt;
+width : 97%;
+color:#000000;
+text-decoration:none;
+}
+
+.td_ml
+{font-family:Calibri;
+font-weight:normal;
+line-height:18pt;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+.img_ml{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0pt;
+	margin: 0pt;
+	height: 24pt;
+	width: 41pt;
+}
+
+
+
+
+
+/* |Label for Page Headings| */
+
+
+/* |Label for Mandatory Note| */
+.note_ml
+{
+
+font-size:18pt;
+color:red;
+font-weight:900;
+text-decoration:none;	
+}
+
+/* |Label for Headings in the form| */
+
+.labeltext_ml{
+font-family:Calibri;
+font-size:11pt;
+color:#00153f;
+padding-left:0pt;
+text-decoration:none;
+font-weight:700;
+}
+
+/* |Label for showing wrong messages in the form| */
+.alert_ml
+{
+border:1pt solid red;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:red;
+text-decoration:none;
+padding-left:5pt;
+padding-right:5pt;
+}
+/* |Label for showing right messages in the form| */
+.general_ml 
+{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#006599;
+text-decoration:none;
+padding-left:5pt;
+padding-right:5pt;
+}
+
+/* |Validations in the form| */
+.valid_ml{
+font-family:Calibri;
+font-size:11pt;
+color:red;
+text-decoration:none;
+}
+ 
+ /* |Grid Edit Delete Button|*/
+.linkgrid
+{
+    color:Maroon;
+}
+ 
+
+/* |Textbox Classes| */
+
+.readonlytext_ml{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:80pt;
+height:15pt;
+font-family:Calibri;
+font-weight:700;
+font-size:11pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+
+.readonlytextbold_ml{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:80pt;
+height:20pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+.readonlytextlong_ml{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200pt;
+height:15pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5px;
+padding-right:5px;
+text-decoration:none;
+}
+.readonlytextlongbold_ml{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200px;
+height:20px;
+font-family:Calibri;
+font-weight:700;
+font-size:11pt;
+color:#000000;
+padding-left:5px;
+padding-right:5px;
+text-decoration:none;
+}
+
+.readonlytextmulti_ml{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200px;
+height:60px;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5px;
+padding-right:5px;
+text-decoration:none;
+}
+
+.loginnametext_ml{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+height:15px;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5px;
+padding-right:5px;
+text-decoration:none;
+}
+
+/* |Large textbox| */
+.textbox_ml{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:250px;
+height:20px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Medium Textbox |*/
+.textboxmedium_ml{
+border:1px solid #00153f;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+.textboxmedium_qb{
+border:1px solid #4986C4;
+font-family:Calibri;
+width:100%;
+padding:10px 0px;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+
+/* |Medium _Textbox |*/
+.textbox_medium_ml{
+border:1px solid #00153f;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Medium Textbox| [Date textboxes | Code fields  ] */
+.textboxsmall_ml{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:80px;
+height:20px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Multuline Textbox| [Remarks | Address] */
+.textboxmulti_ml{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:200px;
+height:100px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+.textboxmultismall_ml
+{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:220px;
+height:70px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Dropdown List Classes| */
+/* Small size Dropdown List  */
+.ddlSmall_ml
+{
+border:1px solid #00153f;
+/*background-color:#F7FDE5;*/
+width:80px;
+height:20px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* Medium size Dropdown List | [State | District | City | Block] */
+.ddlMedium_ml
+{
+border:1px solid #cffc9f;
+/*background-color:#F7FDE5;*/
+width:180px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+.ddlMedium_QB
+{
+border:1px solid #7DACDB;
+/*background-color:#F7FDE5;*/
+width:180px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+.ddl_QB
+{
+border:1px solid #7DACDB;
+/*background-color:#F7FDE5;*/
+width:120px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+/* Large size Dropdown List */
+.ddlLarge_ml
+{
+border:1px solid #00153f;
+/*background-color:#F7FDE5;*/
+width:250px;
+height:20px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* Button Classes*/
+/*Normal Size Button*/
+.bgClr_ml             
+{
+	background-color:#336699;
+	color:White;
+	font-family:Calibri;
+	font-weight:900
+}
+.button_ml
+{
+	color:#00153f;
+	font-weight: 700;
+	border:1px solid #00153f;
+	font-family:Calibri;
+	font-weight:700;
+    font-size:11pt;
+    text-decoration:none;
+    cursor:pointer;
+    }
+/*Large Text Button*/
+.buttonlarge_ml
+{
+/*border:1pt solid #00153f;
+/*background-color:#F7FDE5;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+font-weight:bold;
+color:#006599;
+text-decoration:none;
+padding-left:3pt;
+padding-right:3pt;
+width:180pt;
+border-style:groove;*/
+}
+
+
+/*User in login page */
+.loginborder_ml
+{
+border:1px solid #587502;
+width:30%;
+}
+
+
+
+
+/* footerclass */
+.footerlink_ml{
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#ffffff;
+background-color:#F7F6F3;
+text-decoration:none;
+}
+
+
+/************************************/
+
+
+#tlbmain_ml
+{
+	width:100%;
+	border-width:0pt;
+	font-family:Calibri;
+	font-weight:normal; 
+	line-height:18pt;
+	font-size:11pt;
+	color:#000000;
+}
+
+
+.tlbFilter_ml 
+{
+border:1pt solid #00153f;
+width:100%;
+font-family:Calibri;
+font-weight:normal; 
+line-height:30px;
+font-size:11pt;
+background-color:#E1F0FF;	
+}
+
+
+/*----GridView------*/
+.fieldset-border{border:1pt solid #606060;}
+.gridviewHeader_ml
+{
+	font-family: Calibri;
+	font-weight: bolder;
+	background-color: #cbfdbe;
+	font-size: 11pt;
+	font-weight: bold;
+	line-height: 18pt;
+	margin-left: 5pt;
+	color: #0683FF;
+	border: solid 1px #7a7a7a !Important;
+}
+.gridinnerHeader_ml
+{
+	font-family: Calibri;
+	font-weight: normal;
+	background-color: #bcbcbc;
+	font-size: 11pt;
+	font-weight: bold;
+	line-height: 16pt;
+	margin-left: 5pt;
+	color: #ffffff;
+	border: solid 1px #7a7a7a;
+}
+
+.gridviewAlternatingStyle_ml
+{
+	font-family:Calibri;
+	font-weight:normal; 
+	font-size : 11pt;
+	background-color : #cbfdbe;
+	padding-left:3pt;
+	
+}
+.gridviewItemStyle_ml
+{
+	font-family:Calibri;
+	font-weight:normal; 
+	font-size : 11pt;
+	background-color : White;
+	line-height:16pt;
+	padding-left:3pt;
+	border: solid 1px #7a7a7a;
+}
+
+
+.gridview
+{
+    border-color: #7a7a7a;
+    border-width: 1pt;
+    border-style: solid;
+}
+.gridview-header
+{
+	border: solid 1px #7a7a7a;
+	
+}
+.gridview-header-YesNo
+{
+	border: solid 1px #7a7a7a;
+	width: 30px;
+	
+}
+
+.gridviewColumnDate
+{
+    text-align: center;
+    vertical-align: middle;
+    border-color: #7a7a7a;
+    border-width: 1pt;
+    border-style: solid;
+}
+
+.gridviewColumnControls
+{
+    text-align: center;
+    vertical-align: middle;
+    border-color: #7a7a7a;
+    border-width: 1pt;
+    border-style: solid;
+}
+
+
+.CSSClass
+
+{ word-wrap:break-word} 
+
+.gridviewColumnText
+{
+    text-align: left;
+    vertical-align: middle;
+    border-color: #7a7a7a;
+    border-width: 1pt;
+    border-style: solid;
+}
+.gridviewColumnTextWithArmyNo
+{
+    text-align: left;
+    vertical-align: middle;
+    border-color: #7a7a7a;
+    border-width: 1pt;
+    border-style: solid;
+    font-size:30PX;
+    width: 10PX;
+}
+
+
+.gridviewColumnTextSmall
+{
+    text-align: left;
+    vertical-align: middle;
+    border-color: #7a7a7a;
+    border-width: 1pt;
+    border-style: solid;
+    font-size:30PX;
+    width: 5PX;
+}
+.gridviewColumnSNo
+{
+    text-align: center;
+    vertical-align: middle;
+    border:solid 1px #7a7a7a !Important;
+}
+
+.gridviewColumnNumberWithCalculation
+{
+    text-align: right;
+    vertical-align: middle;
+    border-color: #7a7a7a;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.gridviewColumnNumberWithoutCalculation
+{
+    text-align: left;
+    vertical-align: middle;
+    border-color: #7a7a7a;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/*---------------------------------------------------*/
+
+
+
+.redlabel_ml
+{
+
+font-weight:bold;
+font-size:11pt;
+color:#A72E10;
+text-decoration:none;
+}
+
+.menuHeader_ml
+{
+
+background-image:url('~/Images/backImage.gif');
+	
+}
+
+/*Priority Classes for labels */
+.lbl_high_ml
+{
+	color:#E83636;
+	font-weight:bold;
+}
+.lbl_medium_ml
+{
+	color:#008FDA;
+	font-weight:bold;
+}
+.lbl_low_ml
+{
+	
+	color:#E2991A;
+	font-weight:bold;
+}
+
+.listbox_ml{
+border:1pt solid Maroon;
+
+width:80pt;
+height:15pt;
+font-family:Calibri;
+
+font-size:12pt;
+
+text-decoration:none;
+}
+
+
+
+
+.adjustedZIndex_ml {
+    z-index: 1;
+}
+
+
+
+
+
+.readonlytextlongsmall_ml{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200pt;
+height:20pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:10pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+
+
+
+.readonlytextmultismall_ml{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200pt;
+height:30pt;
+font-family:Calibri;
+font-weight:400;
+font-size:10pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+ 
+ .modalBackground_ml {
+	background-color:Background;
+	/*filter:alpha(opacity=70);
+	opacity:0.7; */
+	
+}
+
+.modalPopup_ml {
+	background-color:#ffffdd;
+	border-width:3pt;
+	border-style:solid;
+	border-color: #7a7a7a;
+	padding:3pt;
+	width:250pt;
+}
+.bgBlueLogin
+{
+	font-size:11pt;
+	font-family:Calibri;
+	width: 450pt;
+	height:180pt;
+	vertical-align:top;
+}
+.textBlue
+{
+	color:#006599;
+}
+
+.sideBars
+{
+	
+	background-repeat: repeat;
+	background-image: url(../Images/bg_sidebars.jpg);
+	width:25pt;
+}
+
+#paramBlue 
+{
+	border-style:double; 
+	border-color:#006599; 
+	height:170pt;
+	padding:8pt 5pt 5pt 5pt;
+	background-image:url(../Images/smartCard.jpg);
+	background-repeat: no-repeat;
+	
+	
+}
+.bgFingerprint
+{
+	background-position:center;
+	background-image:url('../Images/bgfinger.bmp');
+	background-repeat: no-repeat;
+	
+}
+
+.bgHeader
+{
+	background-position:center;
+	background-image:url('../Images/national_aids_control.gif');
+	background-repeat: no-repeat;
+	
+}
+
+
+/*ART CSS Files .....................................................................................................*/
+.tlbPanel
+{
+border:1pt solid #00153f;
+width:100%;
+font-family:Calibri;
+font-weight:normal; 
+line-height:30pt;
+font-size:11pt;
+background-color:#D5FFFF;
+}
+
+
+
+.textalign
+{
+	text-align:left;
+}
+
+
+.watermarked {
+	height:20pt;
+	width:150pt;
+	padding:2pt 0 0 2pt;
+	border:1pt solid #00153f;
+	/*background-color:#FFE1E1;*/
+	color:Maroon;
+}
+
+
+.accordionHeader
+{
+    border: 1pt solid #FFE1E1;
+    color: Maroon;
+    background-color: #FFE1E1;
+	font-family: Calibri, Calibri;
+	font-size: 14pt;
+	font-weight: bold;
+    padding: 5pt;
+    margin-top: 5pt;
+    cursor: pointer;
+}
+
+.myaccorHeader
+{
+ border-style:double;
+ border-width:thick;
+ background-color:Black;
+ font-style:normal;
+ color:White;
+ border:5pt;
+}
+
+.myaccorContent
+{
+	border : 2pt;
+	border-color:#7a7a7a;
+	background-color: Lime;
+}
+
+.accordionContent
+{
+    background-color: white;
+    border: 1pt dashed #2F4F4F;
+    border-top: none;
+    padding: 5pt;
+    padding-top: 10pt;
+}
+
+.accordionLink
+{
+ background-color:  #2E4d7B;
+    color: white;
+}
+
+.body
+{
+	padding: 0pt; 
+	margin: 0pt; 
+	background-color:#3B6396;
+}
+
+.homeOuterTable
+        {
+        border-color: #00153f;
+	        border-style:solid;
+	        border-width:1pt;
+	        border:0;
+	        width:100%;
+	        height:100%;	                  
+	      
+	        
+        }
+        
+/*Used in table in master page for light blue background*/
+.border
+{
+	
+	background-color: #99CCFF;
+}
+.contenttemplate
+{
+	width:100%;
+}
+.template
+{
+	background-color: #99CCFF;
+}
+
+		
+.MiddleHeader
+{
+	width:10%; 
+
+}
+.MiddleHeaderBg
+{
+	width:80%; 
+	background-image: url('/HR Images/MiddleHeader.png'); 
+	background-repeat: repeat-x; 
+	background-position: center bottom; 
+	font-family: 'Monotype Corsiva'; 
+	font-size: xx-large; 
+	font-weight: bold; 
+	color: #000080;
+}
+
+.VerticalMenuHeader
+{
+	background-color: #000099;
+	width:170pt; 
+	height:35pt; 
+	left: 0pt; 
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: x-large; 
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.linkrowbg
+{
+	background-image: url('~/HR Images/Copy of top.jpg'); 
+	background-repeat: repeat-x;
+	
+}
+
+/* |Linkbuttons|Hyperlink| */
+.link
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000080;
+	text-decoration: underline;
+/*	background-image: url(  '/HR Images/b_home.png' );
+	background-repeat: no-repeat;*/
+}
+
+
+.TreeView
+{
+	background-color: #99CCFF; 
+	height:50pt 
+}
+
+.p
+{font-family:Calibri;
+font-weight:normal;
+line-height:18pt;
+font-size:11pt;
+width : 97%;
+color:#000000;
+text-decoration:none;
+}
+
+.td{font-family:Calibri;
+font-weight:normal;
+line-height:18pt;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+.img{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0pt;
+	margin: 0pt;
+	height: 24pt;
+	width: 41pt;
+}
+
+
+
+
+
+/* |Label for Page Headings| */
+.formheading{
+
+font-family:Calibri;
+font-weight:700;
+font-size:17pt;
+color:Black;
+text-decoration:none;
+}
+
+
+/* |Label for Mandatory Note| */
+.note
+{
+
+font-size:18pt;
+color:red;
+font-weight:900;
+text-decoration:none;	
+}
+
+/* |Label for Headings in the form| */
+.formtext{
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:White;
+padding-left:10pt;
+text-decoration:none;
+}
+.labeltext{
+font-family:Calibri;
+font-size:11pt;
+color:Black;
+padding-left:10pt;
+text-decoration:none;
+}
+
+/* |Label for showing wrong messages in the form| */
+.alert
+{
+border:1pt solid red;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:red;
+text-decoration:none;
+padding-left:5pt;
+padding-right:5pt;
+}
+/* |Label for showing right messages in the form| */
+.general 
+{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#006599;
+text-decoration:none;
+padding-left:5pt;
+padding-right:5pt;
+}
+
+/* |Validations in the form| */
+.valid{
+font-family:Calibri;
+font-size:11pt;
+color:red;
+text-decoration:none;
+}
+
+
+/* |Textbox Classes| */
+
+.readonlytext{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+
+.readonlytext_plea{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:Green;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+
+.readonlytext_plea_v{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:Blue;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+
+.readonlytextQB{
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+.readonlytextbold{
+border:1pt solid Maroon;
+background-color:#eeeeee;
+width:80pt;
+height:20pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+.readonlytextlong{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200pt;
+height:15pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+.readonlytextlongbold{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200pt;
+height:20pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+
+.readonlytextmulti{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200pt;
+height:60pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+
+.loginnametext{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+height:15pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+ /* Normal Text Box For Mater And Lookups */
+.textbox_normal{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:200px;
+height:20px;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Large textbox| */
+.textbox{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:250pt;
+height:20pt;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Medium Textbox |*/
+.textboxmedium{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:160pt;
+height:20pt;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Medium Textbox| [Date textboxes | Code fields  ] */
+.textboxsmall{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Multuline Textbox| [Remarks | Address] */
+.textboxmulti{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:200pt;
+height:100pt;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+.textboxmultismall
+{
+border:1pt solid #00153f;
+/*background-color:#F7FDE5;*/
+width:220pt;
+height:70pt;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* |Dropdown List Classes| */
+/* Small size Dropdown List  */
+.ddlSmall
+{
+border:solid 1pt #006599;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* Medium size Dropdown List | [State | District | City | Block] */
+.ddlMedium
+{
+border:solid 1pt Maroon;
+/*background-color:#F7FDE5;*/
+width:80pt;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+/* Large size Dropdown List */
+.ddlLarge
+{
+border:solid 1pt #006599;
+/*background-color:#F7FDE5;*/
+width:180pt;
+height:20pt;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#000000;
+text-decoration:none;
+}
+
+/* Button Classes*/
+/*Normal Size Button*/
+.bgClr              
+{
+	background-color:#336699;
+	color:White;
+	font-family:Calibri;
+	font-weight:900
+}
+.button
+{
+	color:#336699;
+	width: 52pt;
+	font-weight: 700;
+	height: 26pt;
+	border-style:groove;
+}
+/*Large Text Button*/
+.buttonlarge
+{
+/*border:1pt solid #00153f;
+/*background-color:#F7FDE5;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+font-weight:bold;
+color:#006599;
+text-decoration:none;
+padding-left:3pt;
+padding-right:3pt;
+width:180pt;
+border-style:groove;*/
+}
+
+
+/*User in login page */
+.loginborder
+{
+border:1pt solid #587502;
+width:30%;
+}
+
+
+
+
+/* footerclass */
+.footerlink{
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+color:#ffffff;
+background-color:#F7F6F3;
+text-decoration:none;
+}
+
+
+/************************************/
+
+#tlbmain
+{
+	width:100%;
+	border-width:0pt;
+	font-family:Calibri;
+	font-weight:normal; 
+	line-height:18pt;
+	font-size:11pt;
+	color:#000000;
+}
+
+
+.tlbFilter 
+{
+border:1pt solid #00153f;
+width:100%;
+font-family:Calibri;
+font-weight:normal; 
+line-height:30pt;
+font-size:11pt;
+background-color:#E1F0FF;	
+}
+
+
+/*----GridView------*/
+.gridviewHeader
+{
+	font-family: Calibri;
+	font-weight: normal;
+	background-color: gray;
+	font-size: 11pt;
+	font-weight: bold;
+	line-height: 18pt;
+	margin-left: 5pt;
+	color: #FFFFFF;
+}
+.gridinnerHeader
+{
+	font-family: Calibri;
+	font-weight: normal;
+	background-color: #C0C0C0;
+	font-size: 11pt;
+	font-weight: bold;
+	line-height: 16pt;
+	margin-left: 5pt;
+	color: #ffffff;
+}
+
+.gridviewAlternatingStyle
+{
+	font-family:Calibri;
+	font-weight:normal; 
+	font-size : 11pt;
+	background-color : #E1F0FF;
+	padding-left:3pt;
+	
+}
+.gridviewItemStyle
+{
+	font-family:Calibri;
+	font-weight:normal; 
+	font-size : 11pt;
+	background-color :White;
+	line-height:16pt;
+	padding-left:3pt;
+}
+.redlabel
+{
+
+font-weight:bold;
+font-size:11pt;
+color:#A72E10;
+text-decoration:none;
+}
+
+.menuHeader
+{
+
+background-image:url('~/Images/backImage.gif');
+	
+}
+
+/*Priority Classes for labels */
+.lbl_high
+{
+	color:#E83636;
+	font-weight:bold;
+}
+.lbl_medium
+{
+	color:#008FDA;
+	font-weight:bold;
+}
+.lbl_low
+{
+	
+	color:#E2991A;
+	font-weight:bold;
+}
+.adjustedZIndex {
+    z-index: 1;
+}
+
+
+
+
+
+.readonlytextlongsmall{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200pt;
+height:20pt;
+font-family:Calibri;
+font-weight:bold;
+font-size:10pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+
+
+
+.readonlytextmultismall{
+border:1pt solid #00153f;
+background-color:#eeeeee;
+width:200pt;
+height:30pt;
+font-family:Calibri;
+font-weight:400;
+font-size:10pt;
+color:#000000;
+padding-left:5pt;
+padding-right:5pt;
+text-decoration:none;
+}
+ 
+ .modalBackground {
+	background-color:Background;
+	filter:alpha(opacity=50);
+	 opacity:0.7; 
+	
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3pt;
+	border-style:solid;
+	border-color: #7a7a7a;
+	padding:3pt;
+	width:250pt;
+}
+.bgBlueLogin
+{
+	font-size:11pt;
+	font-family:Calibri;
+	width: 450pt;
+	height:180pt;
+	vertical-align:top;
+}
+.textBlue
+{
+	color:#006599;
+}
+
+.sideBars
+{
+	
+	background-repeat: repeat;
+	background-image: url(../Images/bg_sidebars.jpg);
+	width:25pt;
+}
+
+#paramBlue 
+{
+	border-style:double; 
+	border-color:#006599; 
+	height:170pt;
+	padding:8pt 5pt 5pt 5pt;
+	background-image:url(../Images/smartCard.jpg);
+	background-repeat: no-repeat;
+	
+	
+}
+.bgFingerprint
+{
+	background-position:center;
+	background-image:url('../Images/bgfinger.bmp');
+	background-repeat: no-repeat;
+	
+}
+
+.bgHeader
+{
+	background-position:center;
+	background-image:url('../Images/national_aids_control.gif');
+	background-repeat: no-repeat;
+	
+}
+
+
+/*ART CSS Files .....................................................................................................*/
+.tlbPanel
+{
+border:1pt solid #00153f;
+width:100%;
+font-family:Calibri;
+font-weight:normal; 
+line-height:30pt;
+font-size:11pt;
+background-color:#D5FFFF;
+}
+
+.watermark 
+{
+
+	
+	color:Black;
+	/*font-style:italic;*/
+	border:1pt solid Maroon;
+/*background-color:#F7FDE5;*/
+width:250pt;
+height:20pt;
+font-family:Calibri;
+font-weight:normal;
+font-size:11pt;
+
+text-decoration:none;
+}
+
+.textalign
+{
+	text-align:left;
+}
+
+
+.watermarked {
+	height:20pt;
+	width:150pt;
+	padding:2pt 0 0 2pt;
+	border:1pt solid #00153f;
+	background-color:#F0F8FF;
+	color:gray;
+}
+
+
+.backRepeat
+{
+	
+	 background-repeat:no-repeat;
+	 background-position:center;
+}
+.legend
+{
+	color:#00153f;
+	font-family:Calibri;
+	font-size:11pt;
+	font-weight:bold;
+	padding:0px 5px 0px 5px;
+	
+}
+
+.legendml
+{
+	color:#774400;
+	font-family:Calibri;
+	font-size:11pt;
+	font-weight:bold;
+	
+	
+}
+.general 
+{
+border:1pt solid #00153f;
+background-color:#FFFFFF;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:#006599;
+text-decoration:none;
+padding-left:5pt;
+padding-right:5pt;
+}
+
+.alert
+{
+border:1pt solid red;
+background-color:#FFFFFF;
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:red;
+text-decoration:none;
+padding-left:5pt;
+padding-right:5pt;
+}
+
+/*...................................Final CSS LS created by Yogesh .......................................*/
+
+.formHeaderTD
+ {        
+ width: 100%;
+ background:#AC3939;
+ }
+ 
+ .formheading_ml{
+
+font-family:Calibri;
+font-weight:700;
+font-size:17pt;
+color:White;
+text-decoration:none;
+}
+
+.formtext_ml{
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:White;
+padding-left:10pt;
+text-decoration:none;
+}
+
+/* |Validations in the form| */
+.valid
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	color: red;
+	text-decoration: none;
+}
+
+/* |Required Field Highlighter| */
+.ReqField
+{	
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11px;
+	color: Red;
+}
+
+.ddimgtooltip{
+box-shadow: 3px 3px 5px #818181; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 3px 3px 5px #818181;
+-moz-box-shadow: 3px 3px 5px #818181;
+display:none;
+position:absolute;
+border:1px solid black;
+background:white;
+color: 2E4D7B;
+z-index:2000;
+padding: 4px;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.modal
+{
+    background-color: Gray;
+    filter:alpha(opacity=40);
+    opacity:0.7;
+}
+.page-heading{color:#00153f; background-color:#bcbcbc; padding:5px;}
+.table-title{color:#00153f; background-color:#e8e8e8; padding:2px;}
+.table-row{color:#00153f; background-color:#e8e8e8;}
+.table-alt-row{color:#00153f; background-color:#ffffff;}
+.text-box{border:solid 1px #00153f;}
+.row-bg{background-color:#e8e8e8;}
+.qb-table-bg{background-color:#dde5ed;}
+.qb-table-bg td{background-color:#EDF6FF; font-family:Calibri;}
+.hlight-box{border:1px solid #4986C4; background-color:#def2ff; color:#000;}
+.overflow{overflow:auto;}
+
+
+input.textEntry 
+{
+    width: 220px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 220px;
+    border: 1px solid #ccc;
+}

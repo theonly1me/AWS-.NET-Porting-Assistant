@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="OnlineBusTicket.SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+<asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+</asp:ToolkitScriptManager>
+
+    <div id="wrapper">
+        <div id="wrapper1">
+            <div id="header">
+                <div id="head-container">
+                    <div class="head-left">
+                        <a href="#">
+                            <img src="../Images/logo.jpg"/></a></div>
+                    <div class="head-right">
+                        <ul>
+                                                      
+                            <li>
+                                <img src="../Images/logo-icon.jpg" />
+                                &nbsp;<a href="#">Trip Rewards</a></li>
+                            <li id="liReg" runat="server"><a href="/Administration/User_Acount.aspx?UT=5&R=1">Register</a></li>
+                            <li id="liRegAgent" runat="server" style="border: none;"><a href="/Administration/User_Acount.aspx?UT=5&R=2">Travel Agents</a></li>
+                            <li style="border: none; padding: 0;">
+                                <img src="../Images/world-wede.jpg" /></li>
+                        </ul>
+                        <div style="margin-top: 15px; text-align: right">
+                            <img src="../Images/phone.jpg" /></div>
+                    </div>
+                </div>
+            </div>
+            <!-- end header part -->
+            <div id="menu">
+                <div class="nav-bg">
+                    <ul>
+                        <li><a href="/Default.aspx" class="cureent">Home</a></li>
+                        <li><a href="#">Intra State Buses</a></li>
+                        <li><a href="#">Inter State Buses</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Customer Support</a></li>
+                        <li style="float:right"> 
+                            <asp:LinkButton ID="lnkSignOut" runat="server" 
+                                Text="Sign Out" onclick="lnkSignOut_Click" CausesValidation="False" /></li>
+                        <li style="float:right">
+                            <asp:LinkButton ID="lnkLogin" runat="server" onclick="lnkLogin_Click"></asp:LinkButton></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- end menu part -->
+            <div id="contentm">
+                <div class="contentm-holder">
+                    <div class="mster-left">
+                        <asp:TreeView ID="trViewDefault" runat="server">
+                         <Nodes>
+                           <asp:TreeNode Text="Booking Details" NavigateUrl="~/Administration/BookingDetails.aspx?q=Details" />
+                           <asp:TreeNode Text="Print Tickets" NavigateUrl="~/Administration/BookingDetails.aspx?q=Print"  />
+                           <asp:TreeNode Text="Cancel Tickets" NavigateUrl="~/Administration/BookingDetails.aspx?q=Cancel"  />
+                           <asp:TreeNode Text="Profile" NavigateUrl="~/Administration/UserProfile.aspx"  />
+                          <asp:TreeNode Text="Agent History" NavigateUrl="~/Booking/Agent_History.aspx"  />
+                         </Nodes>                           
+                        </asp:TreeView>
+                         <asp:TreeView ID="trViewAdmin" runat="server">
+                         <Nodes>
+                           <asp:TreeNode Text="Approve Agents" NavigateUrl="~/Administration/AgentApprove.aspx" />                           
+                            <asp:TreeNode Text="Configuration & Settings">
+                            <asp:TreeNode Text="Add New Location" NavigateUrl="~/Masters/Locations.aspx" /> 
+                            <asp:TreeNode Text="Operators" NavigateUrl="~/Masters/Operators.aspx" />
+                            <asp:TreeNode Text="Create New Route" NavigateUrl="~/Masters/Routes.aspx" />                   
+                                
+                                <asp:TreeNode Text="New Bus Configuration" NavigateUrl="~/Masters/Bus_Description.aspx" />                             
+                                          
+                                <asp:TreeNode Text="Map Locations,Bus & Routes" NavigateUrl="~/Masters/Bus_Route.aspx" />
+                                <asp:TreeNode Text="Plan Bus Schedule" NavigateUrl="~/WebForm1.aspx" />
+                                
+                           </asp:TreeNode>                          
+                           <asp:TreeNode Text="Profile" NavigateUrl="~/Administration/UserProfile.aspx" />
+                         </Nodes>
+                        </asp:TreeView>
+                    </div>
+                    <div class="mster-right">
+                        <div class="main">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                        </div>
+                    </div>
+                </div>
+                <!-- end content-holder part -->
+            </div>
+            <!-- end content part -->
+            <div class="clear">
+            </div>
+            <div id="footer">
+                <div class="ft-left">
+                    © 2012 Bus Tickets Online Booking Pvt. Ltd.</div>
+                <div class="ft-right">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Privacy Statement</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">XML</a></li>
+                        <li style="border: none; padding: 0;"><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end footer part -->
+        </div>
+        <!-- end wrapper1 part -->
+    </div>
+    <!-- end wrapper part -->
+    </form>
+</body>
+</html>

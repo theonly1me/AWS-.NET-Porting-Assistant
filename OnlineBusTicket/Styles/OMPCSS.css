@@ -1,0 +1,851 @@
+﻿/*
+ _____________________________
+|Symbol | Meaning		      |
+ -----------------------------
+|   .   |Creates class        | 
+ -----------------------------
+|   #   |Set style for a ID   | 
+ -----------------------------
+|   *   |All                  | 
+ -----------------------------
+*/
+
+.body
+{
+	padding: 0px;
+	margin: 0px;
+	background-color: #6b94cb;
+}
+
+.homeOuterTable
+{
+	border-color: #000099;
+	border-style: solid;
+	border-width: 1px;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+/*Used in table in master page for light blue background*/
+.border
+{
+	background-color: #99CCFF;
+}
+
+.MiddleHeader
+{
+	width: 10%;
+	background-image: url('/HR Images/MiddleHeader.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.MiddleHeaderBg
+{
+	width: 80%;
+	background-image: url('/HR Images/MiddleHeader.png');
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	font-family: 'Monotype Corsiva';
+	font-size: xx-large;
+	font-weight: bold;
+	color: #6b94cb;
+}
+
+.VerticalMenuHeader
+{
+	background-color: #6b94cb;
+	width: 170px;
+	height: 35px;
+	left: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: x-large;
+	font-family: 'Times New Roman' , Times, serif;
+}
+
+.linkrowbg
+{
+	background-image: url('/HR Images/Copy of top.jpg');
+	background-repeat: repeat-x;
+}
+
+/* |Linkbuttons|Hyperlink| */
+.link
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: White;
+	text-decoration: underline;
+}
+
+
+.TreeView
+{
+	background-color: #6b94cb;
+	height: 50px;
+	color: White;
+	font-family: Times New Roman;
+}
+
+.p
+{
+	font-family: Calibri;
+	font-weight: normal;
+	line-height: 18px;
+	font-size: 11pt;
+	width: 97%;
+	color: #000000;
+	text-decoration: none;
+}
+
+.td
+{
+	font-family: Calibri;
+	font-weight: normal;
+	line-height: 18px;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+.img
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	margin: 0px;
+	height: 24px;
+	width: 41px;
+}
+
+
+
+
+
+/* |Label for Page Headings| */
+.formheading
+{
+	font-family: Calibri;
+	font-weight: 700;
+	font-size: 13pt;
+	color: Black;
+	text-decoration: none;
+}
+
+
+/* |Label for Mandatory Note| */
+.note
+{
+	font-size: 18px;
+	color: red;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+/* |Label for Headings in the form| */
+.formtext
+{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: White;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.labeltext
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	color: Black;
+	padding-left: 0px;
+	text-decoration: none;
+}
+.labeltextSmall
+{
+	font-family: Calibri;
+	font-size: 11px;
+	color: Black;
+	padding-left: 0px;
+	text-decoration: none;
+}
+/* |Label for showing wrong messages in the form| */
+.alert
+{
+	border: 1px solid red; /*background-color:#F7FDE5;*/
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: red;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/* |Label for showing right messages in the form| */
+.general
+{
+	border: 1px solid #006599; /*background-color:#F7FDE5;*/
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #006599;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* |Validations in the form| */
+.valid
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	color: red;
+	text-decoration: none;
+}
+
+
+/* |Textbox Classes| */
+
+.readonlytext
+{
+	border: 1px solid #006599;
+	background-color: #eeeeee;
+	width: 80px;
+	height: 15px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+.readonlytextbold
+{
+	border: 1px solid #006599;
+	background-color: #eeeeee;
+	width: 80px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+.readonlytextlong
+{
+	border: 1px solid #006599;
+	background-color: #eeeeee;
+	width: 200px;
+	height: 15px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+.readonlytextlongbold
+{
+	border: 1px solid #006599;
+	background-color: #eeeeee;
+	width: 200px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+.readonlytextmulti
+{
+	border: 1px solid #006599;
+	background-color: #eeeeee;
+	width: 200px;
+	height: 60px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+.loginnametext
+{
+	border: 1px solid #006599;
+	background-color: #eeeeee;
+	height: 15px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+/* |Large textbox| */
+.textbox
+{
+	border: 1px solid #575782; /*background-color:#F7FDE5;*/
+	width: 180px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* |Medium Textbox |*/
+.textboxmedium
+{
+	border: 1px solid #575782; /*background-color:#F7FDE5;*/
+	width: 160px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* |Medium Textbox| [Date textboxes | Code fields  ] */
+.textboxsmall
+{
+	border: 1px solid #575782;; /*background-color:#F7FDE5;*/
+	width: 80px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* |Multuline Textbox| [Remarks | Address] */
+.textboxmulti
+{
+	border: 1px solid #575782; /*background-color:#F7FDE5;*/
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+.textboxmultismall
+{
+	border: 1px solid #575782; /*background-color:#F7FDE5;*/
+	width: 220px;
+	height: 70px;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* |Dropdown List Classes| */
+/* Small size Dropdown List  */
+.ddlSmall
+{
+	border: solid 1px #575782; /*background-color:#F7FDE5;*/
+	width: 80px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Medium size Dropdown List | [State | District | City | Block] */
+.ddlMedium
+{
+	border: solid 1px #575782; /*background-color:#F7FDE5;*/
+	width: 183px;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+/* Large size Dropdown List */
+.ddlLarge
+{
+	border: solid 1px #006599; /*background-color:#F7FDE5;*/
+	width: 250px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Button Classes*/
+/*Normal Size Button*/
+.bgClr
+{
+	background-color: #336699;
+	color: White;
+	font-family: Calibri;
+	font-weight: 900;
+}
+.button
+{
+	color: #575782;
+	font-weight: 700;
+	border-style: groove;	
+    border-color:#575782;
+}
+/*Large Text Button*/
+.buttonlarge
+{
+	/*border:1px solid #006599; /*background-color:#F7FDE5; font-family:Arial; font-weight:normal; font-size:12px; font-weight:bold; color:#006599; text-decoration:none; padding-left:3px; padding-right:3px; width:180px; border-style:groove;*/
+}
+
+
+/*User in login page */
+.loginborder
+{
+	border: 1px solid #587502;
+	width: 30%;
+}
+
+
+
+
+/* footerclass */
+.footerlink
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	color: #ffffff;
+	background-color: #F7F6F3;
+	text-decoration: none;
+}
+
+
+/************************************/
+
+#tlbmain
+{
+	width: 100%;
+	border-width: 0px;
+	font-family: Calibri;
+	font-weight: normal;
+	line-height: 18px;
+	font-size: 11pt;
+	color: #000000;
+}
+
+
+.tlbFilter
+{
+	border: 1px solid #006599;
+	width: 100%;
+	font-family: Calibri;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 11pt;
+	background-color: #E1F0FF;
+}
+
+
+/*----GridView OMP------*/
+.gridviewHeader
+{
+	font-family: Calibri;
+	font-weight: normal;
+	background-color: #575782;
+	font-size: 11pt;
+	font-weight: bold;
+	line-height: 18pt;
+	margin-left: 5px;
+	color: #FFFFFF;
+}
+.gridinnerHeader
+{
+	font-family: Calibri;
+	font-weight: normal;
+	background-color: #6D6976;
+	font-size: 11pt;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 5px;
+	color: #ffffff;
+}
+
+.gridviewAlternatingStyle
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	background-color: #D5C9DE;
+	padding-left: 3px;
+}
+.gridviewItemStyle
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11pt;
+	background-color: White;
+	line-height: 16px;
+	padding-left: 3px;
+}
+
+
+.gridview
+{
+	
+    border-color: #575782;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.gridviewColumnDate
+{
+    text-align: center;
+    vertical-align: middle;
+    border-color: #575782;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.gridviewColumnControls
+{
+    text-align: center;
+    vertical-align: middle;
+    border-color: #575782;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.gridviewColumnText
+{
+    text-align: left;
+    vertical-align: middle;
+    border-color: #575782;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.gridviewColumnSNo
+{
+    text-align: center;
+    vertical-align: middle;
+    border-color: #575782;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.gridviewColumnNumberWithCalculation
+{
+    text-align: right;
+    vertical-align: middle;
+    border-color: #575782;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.gridviewColumnNumberWithoutCalculation
+{
+    text-align: left;
+    vertical-align: middle;
+    border-color: #575782;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.redlabel
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #A72E10;
+	text-decoration: none;
+}
+
+.menuHeader
+{
+	background-image: url('~/Images/backImage.gif');
+}
+
+/*Priority Classes for labels */
+.lbl_high
+{
+	color: #E83636;
+	font-weight: bold;
+}
+.lbl_medium
+{
+	color: #008FDA;
+	font-weight: bold;
+}
+.lbl_low
+{
+	color: #E2991A;
+	font-weight: bold;
+}
+.lbl_RecordMessag
+{
+	border:1px solid;
+	border-color:#575782;
+/*background-color:#F7FDE5;*/
+font-family:Calibri;
+font-weight:bold;
+font-size:11pt;
+color:red;
+text-decoration:none;
+padding-left:5px;
+padding-right:5px;
+	
+	/*border-style: solid;
+	background-color: #FFFFFF;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+	color: red;
+	text-decoration: none;
+	padding-left: 5pt;
+	padding-right: 5pt;*/
+}
+	
+	/*color: #FF0000;
+	font-weight: bold;
+	font-size: 11pt;
+	text-decoration: none;
+	border:1pt solid red;*/
+
+
+.adjustedZIndex
+{
+	z-index: 1;
+}
+
+
+
+
+
+.readonlytextlongsmall
+{
+	border: 1px solid #006599;
+	background-color: #eeeeee;
+	width: 200px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+
+
+.readonlytextmultismall
+{
+	border: 1px solid #006599;
+	background-color: #eeeeee;
+	width: 200px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: 400;
+	font-size: 11px;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+.modalBackground
+{
+   
+    filter: Alpha(Opacity=40);
+    -moz-opacity:0.4; 
+    opacity: 0.4;
+    width: 100%; height: 100%; background-color: #999999;
+    
+    
+   top: 50px; left: 400px;
+  
+    z-index: 500;
+    
+}
+
+
+.modalPopup
+{
+	background-color: #ffffdd;
+	border-width: 3px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+	width: 250px;
+}
+.bgBlueLogin
+{
+	font-size: 12px;
+	font-family: Calibri;
+	width: 450px;
+	height: 180px;
+	vertical-align: top;
+}
+.textBlue
+{
+	color: #006599;
+}
+
+.sideBars
+{
+	background-repeat: repeat;
+	background-image: url(../Images/bg_sidebars.jpg);
+	width: 25px;
+}
+
+#paramBlue
+{
+	border-style: double;
+	border-color: #006599;
+	height: 170px;
+	padding: 8px 5px 5px 5px;
+	background-image: url(../Images/smartCard.jpg);
+	background-repeat: no-repeat;
+}
+.bgFingerprint
+{
+	background-position: center;
+	background-image: url('../Images/bgfinger.bmp');
+	background-repeat: no-repeat;
+}
+
+.bgHeader
+{
+	background-position: center;
+	background-image: url('../Images/national_aids_control.gif');
+	background-repeat: no-repeat;
+}
+
+
+/*ART CSS Files .....................................................................................................*/
+.tlbPanel
+{
+	border: 1px solid #006599;
+	width: 100%;
+	font-family: Calibri;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 11px;
+	background-color: #D5FFFF;
+}
+
+
+
+.textalign
+{
+	text-align: left;
+}
+
+
+.watermarked
+{
+	height: 20px;
+	width: 150px;
+	padding: 2px 0 0 2px;
+	border: 1px solid #BEBEBE;
+	background-color: #F0F8FF;
+	color: gray;
+}
+.ContentPlaceHolder
+{
+	background-color: #6b94cb;
+}
+.treeColor
+{
+	background-color: #c3c3c3;
+}
+.treeTextColor
+{
+	background-color: Black;
+}
+.StickyNoteTextBox
+{
+	background-color: Yellow;
+	font-family: @Calibri;
+	font-size: small;
+	height: 100px;
+	width: 300;
+}
+.Tabletd
+{
+	font-family: @Calibri;
+	font-size: small;
+}
+.watermark
+{
+	color: #666666;
+	font-style: italic;
+	border: 1px solid #006599;
+	width: 200px;
+	height: 20px;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.general 
+{
+border:1px solid #006599;
+background-color:#FFFFFF;
+font-family:Calibri;
+font-weight:bold;
+font-size:12px;
+color:#006599;
+text-decoration:none;
+padding-left:5px;
+padding-right:5px;
+}
+
+.alert
+{
+border:1px solid red;
+background-color:#FFFFFF;
+font-family:Calibri;
+font-weight:bold;
+font-size:12px;
+color:red;
+text-decoration:none;
+padding-left:5px;
+padding-right:5px;
+}
+
+.legend
+{
+	color: #4A4A71;
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+/* |Required Field Highlighter| */
+.ReqField
+{
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: large;
+	color: Red;
+}
